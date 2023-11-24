@@ -1,0 +1,42 @@
+# LSB Steganography Program
+
+## Overview
+This program implements LSB (Least Significant Bit) Steganography for hiding and extracting data in image files.
+
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [License](#license)
+
+## Prerequisites
+- Python 3.x
+- Required Python packages (install using `pip install -r requirements.txt`)
+
+## Installation
+1. Clone the repository: `git clone https://github.com/yourusername/lsb-steganography.git`
+2. Navigate to the project directory: `cd lsb-steganography`
+3. Install dependencies: `pip install -r requirements.txt`
+
+## Usage
+1. Run the program: `python main.py`
+2. The login window will prompt for credentials.
+3. Enter the default credentials (username: user, password: 1234) or your own credentials.
+4. After successful login, the main window will appear.
+5. Choose between Text Encryption and Audio Encryption.
+6. Follow the on-screen instructions to perform encryption and decryption.
+
+## Folder Structure
+- `lsb_steganography/` - Contains the LSB Steganography implementation.
+- `images/` - Contains sample images for testing.
+- `audio/` - Contains sample audio files for testing.
+- `main.py` - Main program file.
+- `login.ui` - User interface file for the login window.
+- `text_encryption.ui` - User interface file for the text encryption window.
+- `audio_encryption.ui` - User interface file for the audio encryption window.
+- `requirements.txt` - List of Python packages required for the project.
+- `README.md` - Project documentation.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
